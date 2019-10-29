@@ -30,10 +30,10 @@
         <junitlauncher>
             <!-- include the JUnit platform related libraries
             required to run the tests -->
-            <classpath refid="junit.platform.libs.classpath"/>
+		<classpath refid="junit.platform.libs.src/test"/>
 
             <!-- include the JUnit Jupiter engine libraries -->
-            <classpath refid="junit.engine.jupiter.classpath"/>
+		<classpath refid="junit.engine.jupiter.src/test"/>
 
             <classpath>
                 <!-- the test classes themselves -->
